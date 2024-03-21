@@ -1,5 +1,5 @@
 header {
-    padding: 60px;
+    padding: 60px 120px;
     text-align: left;
 }
 
@@ -21,7 +21,8 @@ header {
     margin-bottom: 30px;
     color: #333;
     font-size: 24px;
-    font-weight: 500
+    font-weight: 500;
+    text-align: left;
 }
 
 .problems {
@@ -73,13 +74,6 @@ header {
     background-color: #FAFAFA;
     margin-top: 150px;
     margin-bottom: 150px;
-}
-
-.section-title {
-    margin-bottom: 30px;
-    color: #333;
-    font-size: 24px;
-    font-weight: 500
 }
 
 .solutions {
@@ -186,7 +180,7 @@ header {
 
 .faq-title {
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 40px;
     font-weight: 500
 }
@@ -236,13 +230,17 @@ header {
     height: 54px;
     color: #000;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 10px;
     gap: 4px;
+}
+.sections__header img{
+    width: 24px;
+    height: auto;
 }
 .button__book{
     display: flex;
@@ -252,15 +250,11 @@ header {
     text-align: center;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     align-items: center;
     line-height: 55px;
 }
 @media screen and (max-width: 992px) {
-    .development-packages {
-        padding: 0 60px;
-    }
-
     .package-card {
         padding: 15px 20px;
     }
@@ -269,8 +263,8 @@ header {
         max-width: 90vw;
         width: 90vw;
     }
-    .problems-section, .solutions-section, .faq-section{
-        padding: 0 40px;
+    header,.development-packages,.problems-section, .solutions-section, .faq-section{
+        padding: 0 60px;
     }
 }
 

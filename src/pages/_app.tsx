@@ -4,6 +4,12 @@ import '@/styles/Index.css';
 import '@/styles/Footer.css';
 import '@/styles/Navbar.css';
 import '@/styles/Products.css';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return  <>
+    <Navbar/>
+    <Component {...pageProps} />
+    <Footer/>
+  </>
 }

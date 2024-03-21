@@ -3,12 +3,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 30px 60px;
+    padding: 30px 120px;
 }
 
 .nav-logo {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 8px;
     align-items: center;
     text-align: center;
@@ -26,10 +26,10 @@ nav {
 .logo-image {
     height: 50px;
     width: auto;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
-#nav-links {
+.nav-links {
     display: flex;
     gap: 20px;
 }

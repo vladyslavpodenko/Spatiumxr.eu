@@ -7,6 +7,7 @@ import FaqItem from "@/components/FaqItem";
 export default function Home() {
     return (
         <>
+            <title>Spatium</title>
             <header>
                 <h1>We help the next generation of spatial computing companies develop an application for VisonOS</h1>
                 <p>We will create an app that will help you attract Apple Vision Pro early adopters and prepare you for
@@ -17,8 +18,8 @@ export default function Home() {
                         e.preventDefault();
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
-                    }} href="/packages" className="button">Explore Packages</a>
-                    <a  href="https://calendly.com/vladsolop/15min"  className="button__book">Book a call {">"}</a>
+                    }} className="button">Explore Packages</a>
+                    <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a call {">"}</a>
                 </div>
             </header>
 
@@ -91,7 +92,7 @@ export default function Home() {
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h5>Spatial Application Development for Vison OS</h5>
+                        <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS</h5>
                         <h5 className="package-card-first">-</h5>
                         <h5>-</h5>
                         <h5>-</h5>
@@ -102,7 +103,8 @@ export default function Home() {
                         <Link href="/packages" className="button">Explore Packages</Link>
                     </div>
                     <div className="package-card">
-                        <h5>PoC development for ideas that will positively affect the ecosystem</h5>
+                        <h5 style={{height: '2em'}}>PoC development for ideas that will positively affect the
+                            ecosystem</h5>
                         <h5 className="package-card-first">-</h5>
                         <h5>-</h5>
                         <h5>-</h5>
