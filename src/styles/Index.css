@@ -244,6 +244,18 @@ header {
     padding-left: 10px;
     gap: 4px;
 }
+.button__book{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    line-height: 55px;
+}
 @media screen and (max-width: 992px) {
     .development-packages {
         padding: 0 60px;

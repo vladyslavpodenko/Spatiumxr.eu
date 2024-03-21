@@ -18,7 +18,7 @@ export default function Home() {
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
                     }} href="/packages" className="button">Explore Packages</a>
-                    <Link href="/contact" className="button">Book a call</Link>
+                    <a  href="https://calendly.com/vladsolop/15min"  className="button__book">Book a call {">"}</a>
                 </div>
             </header>
 
