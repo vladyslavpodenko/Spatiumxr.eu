@@ -15,6 +15,7 @@ export default function Home() {
                 <div className="header-buttons">
                     <a onClick={(e) => {
                         e.preventDefault();
+                        // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
                     }} href="/packages" className="button">Explore Packages</a>
                     <Link href="/contact" className="button">Book a call</Link>
@@ -23,7 +24,10 @@ export default function Home() {
 
 
             <section className="problems-section">
-
+                <div className="sections__header">
+                    <Image src={images.Problem} alt="Proble"/>
+                    <>The Problem</>
+                </div>
                 <h2 className="section-title">You are excited about new technology, but...</h2>
                 <div className="problems">
                     <div className="problem-item">
@@ -51,7 +55,10 @@ export default function Home() {
 
 
             <section className="solutions-section">
-
+                <div className="sections__header">
+                    <Image src={images.Solution} alt="Solution"/>
+                    Solution
+                </div>
                 <h2 className="section-title">We help companies quickly explore a new infinite spatial canvas
                     that the Apple Vision Pro offers.</h2>
                 <div className="solutions">
@@ -77,6 +84,10 @@ export default function Home() {
             </section>
 
             <section id="development-packages" className="development-packages">
+                <div className="sections__header">
+                    <Image src={images.Pricing} alt="Pricing"/>
+                    Pricing
+                </div>
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">

@@ -11,7 +11,7 @@ header {
 
 .problems-section {
     text-align: center;
-    padding: 40px;
+    padding: 0 120px;
     background-color: #FAFAFA;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -69,7 +69,7 @@ header {
 
 .solutions-section {
     text-align: center;
-    padding: 40px;
+    padding: 0 120px;
     background-color: #FAFAFA;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -126,11 +126,12 @@ header {
 
 
 .development-packages {
-    padding:0 120px;
+    padding: 0 120px;
     background-color: #FAFAFA;
     margin-bottom: 200px;
 }
-.development-packages-cards{
+
+.development-packages-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -156,20 +157,24 @@ header {
     padding: 30px 56px;
     max-width: 600px;
 }
-.package-card h5{
+
+.package-card h5 {
     color: #64607D;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
 }
-.package-card a{
+
+.package-card a {
     max-width: max-content;
     margin-top: 20px;
 }
-.package-card-first{
+
+.package-card-first {
     margin-top: 56px;
 }
+
 .faq-section {
     background-color: #FAFAFA;
     padding: 40px;
@@ -196,13 +201,15 @@ header {
     font-size: 16px;
     color: #666;
 }
-.faq-item__show{
+
+.faq-item__show {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.faq-item__show span{
+
+.faq-item__show span {
     border-radius: 50%;
     border: solid 1px #64607D;
     color: black;
@@ -215,26 +222,52 @@ header {
     font-size: 22px;
     cursor: pointer;
 }
-.faq-container{
+
+.faq-container {
     max-width: 50vw;
     width: 50vw;
 }
+
+.sections__header {
+    border-radius: 20px;
+    border: 1px solid #DEE1E6;
+    background: #FFF;
+    width: 146px;
+    height: 54px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+    gap: 4px;
+}
 @media screen and (max-width: 992px) {
-    .development-packages{
+    .development-packages {
         padding: 0 60px;
     }
-    .package-card{
+
+    .package-card {
         padding: 15px 20px;
     }
-    .faq-container{
+
+    .faq-container {
         max-width: 90vw;
         width: 90vw;
     }
+    .problems-section, .solutions-section, .faq-section{
+        padding: 0 40px;
+    }
 }
+
+
 @media screen and (max-width: 768px) {
-    .problems,.solutions,.development-packages-cards{
+    .problems, .solutions, .development-packages-cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 }
