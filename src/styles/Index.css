@@ -226,20 +226,20 @@ header {
     border-radius: 20px;
     border: 1px solid #DEE1E6;
     background: #FFF;
-    width: 146px;
-    height: 54px;
+    height: 36px;
     color: #000;
-    font-size: 14px;
+    width: 110px;
+    font-size: 12px;
     font-weight: 500;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 10px;
-    gap: 4px;
+    padding-left: 6px;
+    gap: 8px;
 }
 .sections__header img{
-    width: 24px;
+    width: 16px;
     height: auto;
 }
 .button__book{
