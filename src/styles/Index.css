@@ -237,6 +237,7 @@ header {
     justify-content: flex-start;
     padding-left: 6px;
     gap: 8px;
+    margin-bottom: 12px;
 }
 .sections__header img{
     width: 16px;
