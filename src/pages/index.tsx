@@ -93,8 +93,7 @@ export default function Home() {
                 <div className="development-packages-cards">
                     <div className="package-card">
                         <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS</h5>
-                        <h5 className="package-card-first">-</h5>
-                        <h5>-Ready to use application</h5>
+                        <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
                         <h5>-Adaptation of your Quest application</h5>
@@ -105,8 +104,7 @@ export default function Home() {
                     <div className="package-card">
                         <h5 style={{height: '2em'}}>PoC development for ideas that will positively affect the
                             ecosystem</h5>
-                        <h5 className="package-card-first">-</h5>
-                        <h5>-Prototype that will show the potential of your idea</h5>
+                        <h5 className="package-card-first">-Prototype that will show the potential of your idea</h5>
                         <h5>-Windows and Volumes based features</h5>
                         <h5>-Two consultation sessions</h5>
                         <h5>-Immersive experience</h5>
