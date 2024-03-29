@@ -100,7 +100,7 @@ export default function Home() {
                         <h5>-</h5>
                         <h5>-</h5>
                         <h5>3950$, one-time, done in 8 weeks</h5>
-                        <Link href="/packages" className="button">Explore Packages</Link>
+                        <Link href="/packages" className="button">Book an intro call</Link>
                     </div>
                     <div className="package-card">
                         <h5 style={{height: '2em'}}>PoC development for ideas that will positively affect the
