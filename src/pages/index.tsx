@@ -92,8 +92,7 @@ export default function Home() {
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h6 style={{height: '2em'}}>Spatial Application Development for Vison OS (Quest applications 
-                            adaptation)</h6>
+                        <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS</h5>
                         <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
@@ -103,8 +102,7 @@ export default function Home() {
                         <Link href="/packages" className="button">Book an intro call</Link>
                     </div>
                     <div className="package-card">
-                        <h5 style={{height: '2em'}}>PoC development for ideas that will positively affect the
-                            ecosystem</h5>
+                        <h5 style={{height: '2em'}}>PoC development for exciting product ideas</h5>
                         <h5 className="package-card-first">-Prototype that will show the potential of your idea</h5>
                         <h5>-Windows and Volumes based features</h5>
                         <h5>-Two consultation sessions</h5>
