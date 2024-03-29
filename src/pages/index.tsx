@@ -92,8 +92,8 @@ export default function Home() {
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS (Quest applications 
-                            adaptation)</h5>
+                        <h6 style={{height: '2em'}}>Spatial Application Development for Vison OS (Quest applications 
+                            adaptation)</h6>
                         <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
