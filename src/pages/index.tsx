@@ -93,24 +93,21 @@ export default function Home() {
                 <div className="development-packages-cards">
                     <div className="package-card">
                         <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS</h5>
-                        <h5 className="package-card-first">-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
+                        <h5 className="package-card-first">-Ready to use application</h5>
+                        <h5>-Immersive experience</h5>
+                        <h5>-Windows and Volumes based features</h5>
+                        <h5>-Adaptation of your Quest application</h5>
+                        <h5>-Development on Unity (+550$)</h5>
                         <h5>3950$, one-time, done in 8 weeks</h5>
-                        <Link href="/packages" className="button">Explore Packages</Link>
+                        <Link href="/packages" className="button">Book an intro call</Link>
                     </div>
                     <div className="package-card">
-                        <h5 style={{height: '2em'}}>PoC development for ideas that will positively affect the
-                            ecosystem</h5>
-                        <h5 className="package-card-first">-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
-                        <h5>-</h5>
+                        <h5 style={{height: '2em'}}>PoC development for exciting product ideas</h5>
+                        <h5 className="package-card-first">-Prototype that will show the potential of your idea</h5>
+                        <h5>-Windows and Volumes based features</h5>
+                        <h5>-Two consultation sessions</h5>
+                        <h5>-Immersive experience</h5>
+                        <h5>-Optimization and testing</h5>
                         <h5>Free, done in 6 weeks</h5>
                         <Link href="/discuss" className="button">Discuss the idea</Link>
                     </div>
