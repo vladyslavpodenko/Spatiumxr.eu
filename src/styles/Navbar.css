@@ -54,6 +54,14 @@ nav {
 }
 @media screen and (max-width: 768px) {
     nav{
-        padding: 0 30px;
+        padding: 15px 30px;
+    }
+}
+@media screen and (max-width: 567px) {
+    .nav-button{
+        display: none;
+    }
+    .nav-links div{
+        display: none;
     }
 }
