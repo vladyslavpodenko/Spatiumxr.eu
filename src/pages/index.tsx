@@ -92,7 +92,7 @@ export default function Home() {
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h1>Spatial Application Development for Vison OS</h1>
+                        <h1>Spatial Application Development</h1>
                         <h4>For startups that want to extend their product on Apple Vision</h4>
                         <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
