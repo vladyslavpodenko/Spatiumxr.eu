@@ -92,23 +92,26 @@ export default function Home() {
                 <h2>We've created approachable development packages specifically for startups.</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h5 style={{height: '2em'}}>Spatial Application Development for Vison OS</h5>
+                        <h1>Spatial Application Development for Vison OS</h1>
+                        <h4>For startups that want to extend their product on Apple Vision</h4>
                         <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
                         <h5>-Adaptation of your Quest application</h5>
                         <h5>-Development on Unity (+550$)</h5>
-                        <h5>3950$, one-time, done in 8 weeks</h5>
+                        <h5 style={{color:'black'}}>3950$<p>, one-time, done in 8 weeks</p></h5>
                         <Link href="/packages" className="button">Book an intro call</Link>
                     </div>
                     <div className="package-card">
-                        <h5 style={{height: '2em'}}>PoC development for exciting product ideas</h5>
-                        <h5 className="package-card-first">-Prototype that will show the potential of your idea</h5>
+                        <h1>PoC development for exciting product ideas</h1>
+                        <h4>For startups that have an idea of a product for Apple Vision</h4>
+                        <h5>-Prototype that will show the potential of your idea</h5>
+                        <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
                         <h5>-Two consultation sessions</h5>
-                        <h5>-Immersive experience</h5>
+                        <h5>-Discount on future services</h5>
                         <h5>-Optimization and testing</h5>
-                        <h5>Free, done in 6 weeks</h5>
+                        <h5 style={{color: 'black'}}>Free<p>, done in 6 weeks</p></h5>
                         <Link href="/discuss" className="button">Discuss the idea</Link>
                     </div>
                 </div>

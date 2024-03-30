@@ -140,6 +140,7 @@ header {
 }
 
 .package-card {
+    font-family: var(--manrope);
     display: flex;
     flex-direction: column;
     border: 1px solid #000000;
@@ -152,20 +153,49 @@ header {
     max-width: 600px;
 }
 
-.package-card h5 {
-    color: #64607D;
+.package-card h5{
+    font-family: var(--manrope);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+    color: #292929;
+    display: flex;
+    flex-direction: row;
+}
+
+.package-card h5 p{
+    color: #64607D;
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.package-card h1{
+    font-family: var(--manrope);
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 0 auto;
+}
+.package-card h4{
+    color: #505864;
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+}
 
 .package-card a {
     max-width: max-content;
     margin-top: 20px;
-}
-
-.package-card-first {
-    margin-top: 56px;
+    font-family: var(--manrope);
 }
 
 .faq-section {
@@ -207,15 +237,17 @@ header {
     border: solid 1px #64607D;
     color: black;
     width: 24px;
-    min-width: 24px;
     height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    min-width: 24px;
     min-height: 24px;
-    line-height: 24px;
-    text-align: center;
-    font-size: 22px;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .faq-container {
     max-width: 50vw;
     width: 50vw;
@@ -266,6 +298,17 @@ header {
     header,.development-packages,.problems-section, .solutions-section, .faq-section{
         padding: 0 60px;
     }
+    .header-buttons{
+        gap: 10px;
+    }
+    .header-buttons a{
+        font-size: 14px;
+    }
+    .header-buttons .button {
+        display: flex;
+        align-items: center;
+        padding: 5px 15px;
+    }
 }
 
 
@@ -275,5 +318,10 @@ header {
         justify-content: center;
         align-items: center;
     }
-
+    header,.development-packages,.problems-section, .solutions-section, .faq-section{
+        padding: 0 30px;
+    }
+    .problem-item,.solution-item{
+        max-width: Calc(100vw - 60px);
+    }
 }
