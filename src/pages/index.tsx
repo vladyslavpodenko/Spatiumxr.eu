@@ -7,7 +7,7 @@ import FaqItem from "@/components/FaqItem";
 export default function Home() {
     return (
         <>
-            <title>Spatium</title>
+            <title>Autopilot for Gmail</title>
             <header>
                 <h1>We help the next generation of spatial computing companies develop an application for VisonOS</h1>
                 <p>We will create an app that will help you attract Apple Vision Pro early adopters and prepare you for
