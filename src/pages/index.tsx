@@ -16,8 +16,8 @@ export default function Home() {
                         e.preventDefault();
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
-                    }} className="button">Explore Packages</a>
-                    <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a call {">"}</a>
+                    }} className="button">Get an early access</a>
+                    <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a demo {">"}</a>
                 </div>
             </header>
 
