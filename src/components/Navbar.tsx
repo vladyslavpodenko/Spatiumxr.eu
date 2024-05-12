@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
             <Link href='/' className="nav-logo">
                 <Image src={images.Tools} alt="Logo" className="logo-image"/>
-                <div className="logo">Autopilot for Gmail</div>
+                <div className="logo">Spatium</div>
             </Link>
             <div className="nav-links">
                 <Link href="/products" className="nav-link">Products</Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
                     if(scroll!==null) {
                         scroll.scrollIntoView({behavior: 'smooth'});
                     }
-                }} 
+                }} className="nav-link">Pricing
                 </div>
                 <Link href="https://calendly.com/vladsolop/15min" className="nav-button">Book a call</Link>
             </div>
