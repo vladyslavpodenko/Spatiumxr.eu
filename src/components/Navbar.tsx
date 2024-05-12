@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="logo">Gmail autopilot</div>
             </Link>
             <div className="nav-links">
-                <Link href="/products" className="nav-link">Products</Link>
+                <Link href="/products" className="nav-link"></Link>
                 <div onClick={(e) => {
                     e.stopPropagation();
                     const scroll=document.getElementById('development-packages')
