@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <title>Autopilot for Gmail</title>
             <header>
-                <h1>We help the next generation of spatial computing companies develop an application for VisonOS</h1>
+                <h1>Create AI autopilot for Gmail</h1>
                 <p>We will create an app that will help you attract Apple Vision Pro early adopters and prepare you for
                     future
                     mass adoption.</p>
