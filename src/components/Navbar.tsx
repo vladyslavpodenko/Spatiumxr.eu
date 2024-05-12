@@ -20,7 +20,7 @@ const Navbar = () => {
                     }
                 }} className="nav-link">Pricing
                 </div>
-                <Link href="https://calendly.com/vladsolop/15min" className="nav-button">Book a call</Link>
+                <Link href="https://calendly.com/vladsolop/15min" className="nav-button">Book a demo</Link>
             </div>
         </nav>
     )
