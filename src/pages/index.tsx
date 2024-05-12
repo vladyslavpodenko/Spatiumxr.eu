@@ -10,9 +10,7 @@ export default function Home() {
             <title>Autopilot for Gmail</title>
             <header>
                 <h1>Create AI autopilot for Gmail</h1>
-                <p>We will create an app that will help you attract Apple Vision Pro early adopters and prepare you for
-                    future
-                    mass adoption.</p>
+                <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
                 <div className="header-buttons">
                     <a onClick={(e) => {
                         e.preventDefault();
