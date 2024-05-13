@@ -51,6 +51,7 @@ header {
 
 
 .icon-container {
+    transform: scale(2);
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
