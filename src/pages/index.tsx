@@ -31,20 +31,20 @@ export default function Home() {
                 <div className="problems">
                     <div className="problem-item">
                         <div className="icon-container">
-                            <Image src={images.Rocket} alt="Problem 1"/>
+                            🤔
                         </div>
                         <p>You need to address numerous repetitive questions about your product, processes, and organization.</p>
                     </div>
                     <div className="problem-item">
                         <div className="icon-container">
-                            <Image src={images.Alarm} alt="Problem 2"/>
+                            🤨
                         </div>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <p>Your clients expect prompt responses and assurance that you are attending to their requests.</p>
                     </div>
                     <div className="problem-item">
                         <div className="icon-container">
-                            <Image src={images.Controller} alt="Problem 3"/>
+                            🤐
                         </div>
                         <p>Your answers should follow personal and company communication standards.</p>
                     </div>
@@ -61,19 +61,19 @@ export default function Home() {
                 <div className="solutions">
                     <div className="solution-item">
                         <div className="icon-container">
-                            <Image src={images.Vision} alt="Problem 1"/>
+                            🙌
                         </div>
                         <p>Answer client questions using your company’s knowledge base or past responses to similar inquiries.</p>
                     </div>
                     <div className="solution-item">
                         <div className="icon-container">
-                            <Image src={images.Ideavalidation} alt="Problem 2"/>
+                            🤝
                         </div>
                         <p>Notify clients that their requests are being processed or schedule calls automatically, without your intervention.</p>
                     </div>
                     <div className="solution-item">
                         <div className="icon-container">
-                            <Image src={images.NewPlatform} alt="Problem 3"/>
+                            😉
                         </div>
                         <p>Follow instructions accurately and mimic your communication style.</p>
                     </div>
