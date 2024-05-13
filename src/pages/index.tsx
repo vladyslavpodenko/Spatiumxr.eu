@@ -8,13 +8,14 @@ export default function Home() {
     return (
         <>
             <title>Sales Autopilot for Gmail</title>
-            <header>
-                <h1>Create AI autopilot for Gmail</h1>
-                <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
-                <div className="header-buttons">
+                  e.preventDefault();
+                        // @ts-ignore
+                        document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
+                    }} <a href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</a>
                     }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</a>
-                 onClick={(e) => {
-                        e.preventDefault();
+                    <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a demo {">"}</a>
+                </div>
+            </header>
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
             
