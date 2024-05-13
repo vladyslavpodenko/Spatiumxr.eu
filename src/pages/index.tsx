@@ -13,7 +13,7 @@ export default function Home() {
                 <meta name="keywords" content="AI autopilot, Gmail autopilot, email automation, Inbox, AI email assistant, GPT, Gmail" />
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="Best Regards AI" />
-                <meta property="og:title" content="Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks" />
+                <meta property="og:title" content="AI Sales Autopilot for Gmail" />
                 <meta property="og:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
                 <meta property="og:url" content="https://emailaicopilot.com/" />
                 <meta property="og:type" content="https://emailaicopilot.com/" />
