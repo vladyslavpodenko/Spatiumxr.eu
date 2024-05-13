@@ -21,15 +21,6 @@ export default function Home() {
                 <meta name="twitter:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
             </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VYZRN0PNC6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VYZRN0PNC6');
-</script>
             
             <header>
                 <h1>Create AI autopilot for Gmail</h1>
