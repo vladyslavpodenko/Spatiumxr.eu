@@ -119,8 +119,8 @@ export default function Home() {
                 <div className="faq-container">
                     <FaqItem
                         question="How do I create a Gmail Copilot?"
-                        answer="1. Connect your copilot to your email.
-                        2. Enter your name and inform us about your product and company details that the sales assistant should know."
+                        answer="Connect copilot to your email. 
+                        Enter your name, Calendly link, and product/company details for the sales assistant."
                     />
                     <FaqItem
                         question="How can I choose which threads the copilot will handle?"
