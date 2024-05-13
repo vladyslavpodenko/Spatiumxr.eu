@@ -89,26 +89,26 @@ export default function Home() {
                 <div className="development-packages-cards">
                     <div className="package-card">
                         <h1>For Individuals:</h1>
-                       
-                        <h5 className="package-card-first">-Ready to use application</h5>
-                        <h5>-Immersive experience</h5>
-                        <h5>-Windows and Volumes based features</h5>
-                        <h5>-Adaptation of your Quest application</h5>
-                        <h5>-Development on Unity (+550$)</h5>
-                        <h5 style={{color:'black'}}>3950$<p>, one-time, done in 8 weeks</p></h5>
-                        <Link href="/packages" className="button">Book an intro call</Link>
+                        <h4>SDR, AE, SE, BDR etc</h4>
+                        <h5 className="package-card-first">-Onboarding call</h5>
+                        <h5>-Assistance with knowledge base setup</h5>
+                        <h5>-Ability to connect one email</h5>
+                        <h5>-Unlimited messages</h5>
+                        <h5>-Customizable instructions</h5>
+                        <h5 style={{color:'black'}}>Free<p>, Start Using in Less Than 20 minutes</p></h5>
+                        <Link href="/packages" className="button">Get an early access</Link>
                     </div>
                     <div className="package-card">
-                        <h1>PoC development for exciting product ideas</h1>
-                        <h4>For startups that have an idea of a product for Apple Vision</h4>
-                        <h5>-Prototype that will show the potential of your idea</h5>
-                        <h5>-Immersive experience</h5>
-                        <h5>-Windows and Volumes based features</h5>
-                        <h5>-Two consultation sessions</h5>
-                        <h5>-Discount on future services</h5>
-                        <h5>-Optimization and testing</h5>
-                        <h5 style={{color: 'black'}}>Free<p>, done in 6 weeks</p></h5>
-                        <Link href="/discuss" className="button">Discuss the idea</Link>
+                        <h1>For Organizations:</h1>
+                        <h4>For SaaS Companies and Cloud Solutions Resellers</h4>
+                        <h5>-Onboarding call</h5>
+                        <h5>-Assistance with knowledge base setup</h5>
+                        <h5>-Unlimited support</h5>
+                        <h5>-Unlimited seats</h5>
+                        <h5>-Customizable instructions</h5>
+                        <h5>-Future access to software integrations</h5>
+                        <h5 style={{color: 'black'}}>Free<p>, Integrate in Less Than 2 Hours</p></h5>
+                        <Link href="/discuss" className="button">Get an early access</Link>
                     </div>
                 </div>
             </section>
@@ -118,16 +118,17 @@ export default function Home() {
                 <h2 className="faq-title">Frequently asked questions</h2>
                 <div className="faq-container">
                     <FaqItem
-                        question="What is your experience with the VisionOS application development?"
-                        answer="We are early adopters of Vison OS and possess experience in augmented reality (AR) and virtual reality(VR) technologies, particularly on Apple's Vision Pro platform."
+                        question="How do I create a Gmail Copilot?"
+                        answer="1. Connect your copilot to your email.
+                        2. Enter your name and inform us about your product and company details that the sales assistant should know."
                     />
                     <FaqItem
-                        question="Do you have an experience with Unity or ARkit?"
-                        answer="We have some with Unity and no experience with ARkit"
+                        question="How can I choose which threads the copilot will handle?"
+                        answer="Simply label the threads as Assistant Active. The co-pilot will then manage these communications on your behalf."
                     />
                     <FaqItem
-                        question="Why are you offering free PoC development to early-stage startups with an exciting idea?"
-                        answer="We believe in a future of spatial computing and see as our goal to help this ecosystem to create products that will use full XR potential. Maybe its a right time to create a new Uber or AirBnb."
+                        question="Will my manager know that I am using Gmail Copilot?"
+                        answer="No, enjoy your flexibility!"
                     />
                 </div>
             </section>
