@@ -6,7 +6,7 @@ import FaqItem from "@/components/FaqItem";
 
 export default function Home() {
     return (
-          <>
+           <>
             <title>Sales Autopilot for Gmail</title>
             <header>
                 <h1>Create AI autopilot for Gmail</h1>
