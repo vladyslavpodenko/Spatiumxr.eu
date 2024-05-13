@@ -7,13 +7,10 @@ import FaqItem from "@/components/FaqItem";
 export default function Home() {
     return (
         <>
-             <Head>
+        
     
                 <title>Sales Autopilot for Gmail: AI-powered copilot to streamline email tasks</title>
-                <meta name="keywords" content="gmail, sales, AI, inbox, autopilot"/>
-                <meta name="description" content="AI copilot for Gmail automates handling repetitive questions, requests, and follow-ups, allowing you to achieve inbox zero effortlessly."/>
-            
-            </Head>
+               
         
            
             <header>
