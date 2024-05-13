@@ -90,7 +90,7 @@ export default function Home() {
                     <div className="package-card">
                         <h1>For Individuals:</h1>
                         <h4>SDR, AE, SE, BDR etc</h4>
-                        <h5 className="package-card-first">-Onboarding call</h5>
+                        <h5>-Onboarding call</h5>
                         <h5>-Assistance with knowledge base setup</h5>
                         <h5>-Ability to connect one email</h5>
                         <h5>-Unlimited messages</h5>
@@ -100,7 +100,7 @@ export default function Home() {
                     </div>
                     <div className="package-card">
                         <h1>For Organizations:</h1>
-                        <h4>For SaaS Companies and Cloud Solutions Resellers</h4>
+                        <h4>SaaS Companies and Cloud Solutions Resellers</h4>
                         <h5>-Onboarding call</h5>
                         <h5>-Assistance with knowledge base setup</h5>
                         <h5>-Unlimited support</h5>
