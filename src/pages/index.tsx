@@ -27,27 +27,26 @@ export default function Home() {
                     <Image src={images.Problem} alt="Proble"/>
                     <>The Problem</>
                 </div>
-                <h2 className="section-title">You are excited about new technology, but...</h2>
+                <h2 className="section-title">As the number of leads has grown it has become harder to communicate</h2>
                 <div className="problems">
                     <div className="problem-item">
                         <div className="icon-container">
                             <Image src={images.Rocket} alt="Problem 1"/>
                         </div>
-                        <p>You need to quickly develop a prototype and attract early adopters of Apple Vision Pro.</p>
+                        <p>You need to address numerous repetitive questions about your product, processes, and organization.</p>
                     </div>
                     <div className="problem-item">
                         <div className="icon-container">
                             <Image src={images.Alarm} alt="Problem 2"/>
                         </div>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p>Your team doesn't have the capacity and skills to develop a VisionOS application.</p>
+                        <p>Your clients expect prompt responses and assurance that you are attending to their requests.</p>
                     </div>
                     <div className="problem-item">
                         <div className="icon-container">
                             <Image src={images.Controller} alt="Problem 3"/>
                         </div>
-                        <p>You have an app on other platforms like iOS or Meta Quest, and you need to adapt it to
-                            VisionOS.</p>
+                        <p>Your answers should follow personal and company communication standards.</p>
                     </div>
                 </div>
             </section>
@@ -58,26 +57,25 @@ export default function Home() {
                     <Image src={images.Solution} alt="Solution"/>
                     Solution
                 </div>
-                <h2 className="section-title">We help companies quickly explore a new infinite spatial canvas
-                    that the Apple Vision Pro offers.</h2>
+                <h2 className="section-title">We created an AI copilot that can:</h2>
                 <div className="solutions">
                     <div className="solution-item">
                         <div className="icon-container">
                             <Image src={images.Vision} alt="Problem 1"/>
                         </div>
-                        <p>Validate your spatial concepts and bring them to life with cost and time efficiency.</p>
+                        <p>Answer client questions using your company’s knowledge base or past responses to similar inquiries.</p>
                     </div>
                     <div className="solution-item">
                         <div className="icon-container">
                             <Image src={images.Ideavalidation} alt="Problem 2"/>
                         </div>
-                        <p>Adapt your existing applications to work natively on VisionOS</p>
+                        <p>Notify clients that their requests are being processed or schedule calls automatically, without your intervention.</p>
                     </div>
                     <div className="solution-item">
                         <div className="icon-container">
                             <Image src={images.NewPlatform} alt="Problem 3"/>
                         </div>
-                        <p>Explore the possibilities of extended reality (XR) with our tailored applications. </p>
+                        <p>Follow instructions accurately and mimic your communication style.</p>
                     </div>
                 </div>
             </section>
@@ -87,11 +85,11 @@ export default function Home() {
                     <Image src={images.Pricing} alt="Pricing"/>
                     Pricing
                 </div>
-                <h2>We've created approachable development packages specifically for startups.</h2>
+                <h2>Exclusive Offer: First 30 Users Receive 6 Months Free!</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
-                        <h1>Spatial Application Development</h1>
-                        <h4>For startups that want to extend their product on Apple Vision</h4>
+                        <h1>For Individuals:</h1>
+                       
                         <h5 className="package-card-first">-Ready to use application</h5>
                         <h5>-Immersive experience</h5>
                         <h5>-Windows and Volumes based features</h5>
