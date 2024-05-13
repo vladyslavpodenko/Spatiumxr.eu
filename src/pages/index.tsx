@@ -15,8 +15,8 @@ export default function Home() {
                 <meta name="description" content="AI copilot for Gmail automates handling repetitive questions, requests, and follow-ups, allowing you to achieve inbox zero effortlessly."/>
                 <meta property="og:title" content="Sales Autopilot for Gmail: Streamline Your Email Tasks with AI"/>
                 <meta property="og:description" content="Discover the power of an AI copilot for Gmail that handles repetitive questions and requests efficiently, letting you focus on more important tasks."/>
-                <meta property="og:url" content="https://www.yourdomain.com"/>
-                <meta property="og:image" content="https://www.yourdomain.com/icon512.png"/>
+                <meta property="og:url" content="https://emailaicopilot.com"/>
+                <meta property="og:image" content="https://https://emailaicopilot.com/icon512.png"/>
                 <meta property="og:type" content="website"/>
             </Head>
             
