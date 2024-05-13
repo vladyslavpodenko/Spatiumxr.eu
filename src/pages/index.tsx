@@ -7,12 +7,20 @@ import FaqItem from "@/components/FaqItem";
 export default function Home() {
     return (
         <>
-        
-    
-                <title>Sales Autopilot for Gmail: AI-powered copilot to streamline email tasks</title>
-               
-        
-           
+            <head>
+                <title>Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks</title>
+                <meta name="description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+                <meta name="keywords" content="AI copilot, Gmail autopilot, email automation, sales automation, customer support, AI email assistant, repetitive tasks, streamline communication" />
+                <meta name="robots" content="index, follow" />
+                <meta name="author" content="Best Regards AI" />
+                <meta property="og:title" content="Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks" />
+                <meta property="og:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+                <meta property="og:url" content="https://emailaicopilot.com/" />
+                <meta property="og:type" content="https://emailaicopilot.com/" />
+                <meta name="twitter:title" content="Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks" />
+                <meta name="twitter:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+            </head>
+            
             <header>
                 <h1>Create AI autopilot for Gmail</h1>
                 <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
