@@ -107,7 +107,7 @@ export default function Home() {
                         <h5>-Unlimited seats</h5>
                         <h5>-Customizable instructions</h5>
                         <h5 style={{color: 'black'}}>Free<p>, Integrate in Less Than 2 Hours</p></h5>
-                        <Link href="/discuss" className="button">Get an early access</Link>
+                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</Link>
                     </div>
                 </div>
             </section>
