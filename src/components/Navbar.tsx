@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="logo">Best Regards AI</div>
             </Link>
             <div className="nav-links">
-                <Link href="/products" className="nav-link"></Link>
+                <Link href="/products" className="nav-link">Case study</Link>
                 <div onClick={(e) => {
                     e.stopPropagation();
                     const scroll=document.getElementById('development-packages')
