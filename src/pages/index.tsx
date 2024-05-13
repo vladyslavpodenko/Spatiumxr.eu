@@ -89,7 +89,7 @@ export default function Home() {
                 <div className="development-packages-cards">
                     <div className="package-card">
                         <h1>For Individuals:</h1>
-                        <h4>SDR, AE, SE, BDR etc</h4>
+                        <h4>SDRs, Account Executives, and Sales Executives</h4>
                         <h5>-Onboarding call</h5>
                         <h5>-Assistance with knowledge base setup</h5>
                         <h5>-Ability to connect one email</h5>
@@ -106,7 +106,6 @@ export default function Home() {
                         <h5>-Unlimited support</h5>
                         <h5>-Unlimited seats</h5>
                         <h5>-Customizable instructions</h5>
-                        <h5>-Future access to software integrations</h5>
                         <h5 style={{color: 'black'}}>Free<p>, Integrate in Less Than 2 Hours</p></h5>
                         <Link href="/discuss" className="button">Get an early access</Link>
                     </div>
