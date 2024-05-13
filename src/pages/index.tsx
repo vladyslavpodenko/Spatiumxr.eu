@@ -13,6 +13,11 @@ export default function Home() {
                 <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
                 <div className="header-buttons">
                     }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</a>
+                 <a onClick={(e) => {
+                        e.preventDefault();
+                        // @ts-ignore
+                        document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
+            
                     <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a demo {">"}</a>
                 </div>
             </header>
