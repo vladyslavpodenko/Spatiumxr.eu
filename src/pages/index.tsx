@@ -96,7 +96,7 @@ export default function Home() {
                         <h5>-Unlimited messages</h5>
                         <h5>-Customizable instructions</h5>
                         <h5 style={{color:'black'}}>Free<p>, Integrate in Under 20 Minutes</p></h5>
-                        <Link href="/packages" className="button">Get an early access</Link>
+                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</Link>
                     </div>
                     <div className="package-card">
                         <h1>For Organizations:</h1>
