@@ -95,7 +95,7 @@ export default function Home() {
                         <h5>-Ability to connect one email</h5>
                         <h5>-Unlimited messages</h5>
                         <h5>-Customizable instructions</h5>
-                        <h5 style={{color:'black'}}>Free<p>, Start Using in Less Than 20 minutes</p></h5>
+                        <h5 style={{color:'black'}}>Free<p>, Integrate in Under 20 Minutes</p></h5>
                         <Link href="/packages" className="button">Get an early access</Link>
                     </div>
                     <div className="package-card">
