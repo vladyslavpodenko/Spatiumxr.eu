@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
             <Link href='/' className="nav-logo">
                 <Image src={images.Tools} alt="Logo" className="logo-image"/>
-                <div className="logo">Gmail autopilot</div>
+                <div className="logo">Best Regards AI</div>
             </Link>
             <div className="nav-links">
                 <Link href="/products" className="nav-link"></Link>
