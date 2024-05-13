@@ -20,7 +20,7 @@ export default function Home() {
                 <meta property="og:type" content="website"/>
             </Head>
             
-            <title>Sales Autopilot for Gmail</title>
+            
             <header>
                 <h1>Create AI autopilot for Gmail</h1>
                 <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
