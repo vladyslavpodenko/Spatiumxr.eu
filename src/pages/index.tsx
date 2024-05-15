@@ -23,14 +23,14 @@ export default function Home() {
 
             
             <header>
-                <h1>Create AI autopilot for Gmail</h1>
+                <h1>Create an AI autopilot for Gmail</h1>
                 <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
                 <div className="header-buttons">
                     <a onClick={(e) => {
                         e.preventDefault();
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
-                    }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</a>
+                    }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</a>
                     <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a demo {">"}</a>
                 </div>
             </header>
@@ -54,13 +54,13 @@ export default function Home() {
                             🤨
                         </div>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p>Your clients expect prompt responses and assurance that you are attending to their requests.</p>
+                        <p>Clients expect prompt responses and assurance that you are attending to their requests.</p>
                     </div>
                     <div className="problem-item">
                         <div className="icon-container">
                             🤐
                         </div>
-                        <p>Your answers should follow personal and company communication standards.</p>
+                        <p>Answers should follow personal and company communication standards.</p>
                     </div>
                 </div>
             </section>
@@ -110,7 +110,7 @@ export default function Home() {
                         <h5>-Unlimited messages</h5>
                         <h5>-Customizable instructions</h5>
                         <h5 style={{color:'black'}}>Free<p>, Integrate in Under 20 Minutes</p></h5>
-                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</Link>
+                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</Link>
                     </div>
                     <div className="package-card">
                         <h1>For Organizations:</h1>
@@ -121,7 +121,7 @@ export default function Home() {
                         <h5>-Unlimited seats</h5>
                         <h5>-Customizable instructions</h5>
                         <h5 style={{color: 'black'}}>Free<p>, Integrate in Less Than 2 Hours</p></h5>
-                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get an early access</Link>
+                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</Link>
                     </div>
                 </div>
             </section>
