@@ -4,7 +4,18 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
+                
+                <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VYZRN0PNC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VYZRN0PNC6');
+</script>
                 <link rel="icon" type="image/x-icon" href="/icon.ico"></link>
+                    
             </Head>
             <body>
             <Main/>
