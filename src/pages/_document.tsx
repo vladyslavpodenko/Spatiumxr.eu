@@ -14,7 +14,6 @@ export default function Document() {
 
   gtag('config', 'G-VYZRN0PNC6');
 </script>
-                <link rel="icon" type="image/x-icon" href="/icon.ico"></link>
                     
             </Head>
             <body>
