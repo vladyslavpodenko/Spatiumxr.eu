@@ -8,17 +8,17 @@ export default function Home() {
     return (
         <>
             <head>
-                <title>Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks</title>
-                <meta name="description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
-                <meta name="keywords" content="AI autopilot, Gmail autopilot, email automation, Inbox, AI email assistant, GPT, Gmail" />
+                <title>Sales Autopilot for Gmail: automate your early-stage communications</title>
+                <meta name="description" content="Automate your early-stage communications with autopilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+                <meta name="keywords" content="AI autopilot, Gmail autopilot, email automation, Inbox, AI email assistant, GPT, Gmail, AI for AE, AI for SE" />
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="Best Regards AI" />
                 <meta property="og:title" content="AI Sales Autopilot for Gmail" />
-                <meta property="og:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+                <meta property="og:description" content="Automate your early-stage communications with autopilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
                 <meta property="og:url" content="https://emailaicopilot.com/" />
                 <meta property="og:type" content="https://emailaicopilot.com/" />
-                <meta name="twitter:title" content="Sales Autopilot for Gmail: AI-powered Copilot to Streamline Email Tasks" />
-                <meta name="twitter:description" content="Streamline your email tasks with our AI-powered copilot for Gmail. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
+                <meta name="twitter:title" content="Sales Autopilot for Gmail: Automate your early-stage communications with autopilot for Gmail." />
+                <meta name="twitter:description" content="Automate your early-stage communications with autopilot for Gmail.. Handle repetitive questions, requests, and follow-ups effortlessly using your company's knowledge base." />
             </head>
 
             
