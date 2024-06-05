@@ -23,8 +23,8 @@ export default function Home() {
 
             
             <header>
-                <h1>Create an AI autopilot for Gmail</h1>
-                <p>AI copilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
+                <h1>AI autopilot for Gmail</h1>
+                <p>AI autopilot will handle repetitive questions, requests, and follow-ups based on your simple instructions and company knowledge base.</p>
                 <div className="header-buttons">
                     <a onClick={(e) => {
                         e.preventDefault();
@@ -99,7 +99,7 @@ export default function Home() {
                     <Image src={images.Pricing} alt="Pricing"/>
                     Pricing
                 </div>
-                <h2>Exclusive Offer: First 30 Users Receive 6 Months Free!</h2>
+                <h2>Exclusive Offer: First 5 Organizations Receive 12 Months Free!</h2>
                 <div className="development-packages-cards">
                     <div className="package-card">
                         <h1>For Individuals:</h1>
@@ -114,7 +114,7 @@ export default function Home() {
                     </div>
                     <div className="package-card">
                         <h1>For Organizations:</h1>
-                        <h4>Cloud Solution Providers and Consulting Firms</h4>
+                        <h4>Cloud Solutions Providers and Consulting Firms</h4>
                         <h5>-Onboarding call</h5>
                         <h5>-Assistance with knowledge base setup</h5>
                         <h5>-Unlimited support</h5>
