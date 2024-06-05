@@ -31,7 +31,7 @@ export default function Home() {
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
                     }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</a>
-                    <a href="https://calendly.com/vladsolop/15min" className="button__book">Book a demo {">"}</a>
+                    <a href="https://calendly.com/vladpodenko01/30min" className="button__book">Book a demo {">"}</a>
                 </div>
             </header>
 
