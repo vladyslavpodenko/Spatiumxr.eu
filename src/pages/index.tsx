@@ -114,7 +114,7 @@ export default function Home() {
                     </div>
                     <div className="package-card">
                         <h1>For Organizations:</h1>
-                        <h4>SaaS Companies and Cloud Solutions Resellers</h4>
+                        <h4>Cloud Solution Providers and Consulting Firms</h4>
                         <h5>-Onboarding call</h5>
                         <h5>-Assistance with knowledge base setup</h5>
                         <h5>-Unlimited support</h5>
