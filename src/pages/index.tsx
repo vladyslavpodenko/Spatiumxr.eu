@@ -140,8 +140,8 @@ export default function Home() {
                         answer="Simply label the threads as Assistant Active. The co-pilot will then manage these communications on your behalf."
                     />
                     <FaqItem
-                        question="Will my manager know that I am using Gmail Copilot?"
-                        answer="No, enjoy your flexibility!"
+                        question="Can Gmail Copilot understand the context of a conversation thread?"
+                        answer="Yes, it responds to clients considering the context of previous messages."
                     />
                 </div>
             </section>
