@@ -1,6 +1,6 @@
 const Index=()=>{
     return(<div className="products">
-        Something awesome will be here very soon, stay tuned!
+        In process
     </div>)
 }
 export default Index;
