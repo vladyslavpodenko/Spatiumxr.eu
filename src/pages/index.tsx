@@ -30,7 +30,7 @@ export default function Home() {
                         e.preventDefault();
                         // @ts-ignore
                         document.getElementById('development-packages').scrollIntoView({behavior: 'smooth'});
-                    }} href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</a>
+                    }} href="https://tally.so/r/nrKQMo" className="button">Get early access</a>
                     <a href="https://calendly.com/vladpodenko01/30min" className="button__book">Book a demo {">"}</a>
                 </div>
             </header>
@@ -121,7 +121,7 @@ export default function Home() {
                         <h5>-Unlimited seats</h5>
                         <h5>-Customizable instructions</h5>
                         <h5 style={{color: 'black'}}>Free<p>, Integrate in Less Than 2 Hours</p></h5>
-                        <Link href="https://jbd22dr7xmp.typeform.com/to/kT5IuWDP" className="button">Get early access</Link>
+                        <Link href="https://tally.so/r/nrKQMo" className="button">Get early access</Link>
                     </div>
                 </div>
             </section>
